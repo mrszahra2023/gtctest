@@ -31,6 +31,7 @@ go version
 
 -------------------------------------------------
 celestia-appd version
+git clone https://github.com/celestiaorg/networks
 
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
