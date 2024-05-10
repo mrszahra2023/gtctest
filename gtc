@@ -16,7 +16,6 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 cd $HOME
 
 ---------------------------------------------------
-go version
 source $HOME/.bash_profile
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 
