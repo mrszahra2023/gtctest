@@ -18,7 +18,6 @@ make install
 rm "go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------------
-celestia-appd version
 git clone https://github.com/celestiaorg/networks
 
 -------------------------------------------
