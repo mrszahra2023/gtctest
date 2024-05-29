@@ -34,6 +34,7 @@ CELESTIA_CHAIN="mamaki"
 اطلاعات  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 به عنوان مثال :
 
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 
 CELESTIA_WALLET="amir8372"
 CELESTIA_CHAIN="mamaki"
