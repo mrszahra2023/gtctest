@@ -21,6 +21,7 @@ git clone https://github.com/celestiaorg/networks
 
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
+rm "go$ver.linux-amd64.tar.gz"
 
 -------------------------------
 cd $HOME
