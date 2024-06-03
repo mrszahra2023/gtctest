@@ -17,7 +17,6 @@ make install
 rm "go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------------
-git clone https://github.com/celestiaorg/networks
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------
