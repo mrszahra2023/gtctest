@@ -48,6 +48,7 @@ source $HOME/.bash_profile
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
+git clone https://github.com/celestiaorg/networks.git
 
 -------------------------------------
 cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
