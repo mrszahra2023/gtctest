@@ -9,7 +9,6 @@ ver="1.18.3"
 ---------------------------------------------------
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 --------------------------------------
-make install
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------------
