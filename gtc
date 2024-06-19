@@ -122,6 +122,7 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 Press CTRL+C to stop the logs
 
 -------------------------------------------------------------
+mkdir -p ~/.celestia-app/data
 
 sudo systemctl stop celestia-appd
 
@@ -129,7 +130,6 @@ sudo systemctl stop celestia-appd
 
 cd $HOME
 rm -rf ~/.celestia-app/data
-mkdir -p ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
     egrep -o ">mamaki.*tar" | tr -d ">")
 wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
