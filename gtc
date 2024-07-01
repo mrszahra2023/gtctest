@@ -120,6 +120,7 @@ sudo systemctl stop celestia-appd
 
 -------------------------------------------------------------
 mkdir -p ~/.celestia-app/data
+pruning_interval="10"
 
 sudo systemctl stop celestia-appd
 
