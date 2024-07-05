@@ -98,7 +98,6 @@ celestia-appd config keyring-backend test
 tee $HOME/celestia-appd.service > /dev/null <<EOF
   After=network-online.target
 [Service]
-  User=$USER
   ExecStart=$(which celestia-appd) start
   Restart=on-failure
   RestartSec=3
