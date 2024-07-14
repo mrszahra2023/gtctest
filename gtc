@@ -17,6 +17,7 @@ wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------
 ver="1.18.3"
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------
 git clone https://github.com/celestiaorg/networks.git
