@@ -32,7 +32,6 @@ sudo apt update && sudo apt upgrade -y
 
 ----------------------------------------------------------
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
-wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
