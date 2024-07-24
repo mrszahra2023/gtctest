@@ -53,6 +53,7 @@ wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 ------------------------------------------------
 sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $HOME/.celestia-app/config/config.toml
+max_connections=50
 
 -----------------------------------------------------------
 sed -i 's/timeout-commit = ".*/timeout-commit = "25s"/g' $HOME/.celestia-app/config/config.toml
@@ -60,7 +61,6 @@ sed -i 's/peer-gossip-sleep-duration *=.*/peer-gossip-sleep-duration = "2ms"/g' 
 
 -----------------------------------------------------------------
 max_num_inbound_peers=40 
-max_connections=50
 s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app/config/config.toml
 
 ----------------------------------------------------------------
