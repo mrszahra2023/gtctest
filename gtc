@@ -48,7 +48,6 @@ sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/con
 BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
 
 --------------------------------------------------
-echo $BOOTSTRAP_PEERS
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 ------------------------------------------------
