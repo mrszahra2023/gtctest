@@ -19,7 +19,6 @@ wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------
 git clone https://github.com/celestiaorg/networks.git
-wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 --------------------------
 CELESTIA_WALLET="MY_WALLET"
