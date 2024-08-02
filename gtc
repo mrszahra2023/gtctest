@@ -13,8 +13,10 @@ wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------------
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------------------
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 -------------------------------
@@ -57,6 +59,7 @@ sed -i 's/peer-gossip-sleep-duration *=.*/peer-gossip-sleep-duration = "2ms"/g' 
 
 -----------------------------------------------------------------
 s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app/config/config.toml
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 ----------------------------------------------------------------
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
