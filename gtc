@@ -25,7 +25,6 @@ CELESTIA_WALLET="MY_WALLET"
 
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 
-CELESTIA_CHAIN="mamaki"
 sudo apt update && sudo apt upgrade -y
 
 ----------------------------------------------------------
