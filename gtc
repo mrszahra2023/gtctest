@@ -84,7 +84,6 @@ celestia-appd config keyring-backend test
 
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
-[Service]
   ExecStart=$(which celestia-appd) start
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
