@@ -126,7 +126,6 @@ wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 celestia-appd keys add $CELESTIA_WALLET
 
-اطلاعات دریافتی این بخش رو توی نوت پد برای خودتون ذخیره کنید
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 
 -----------------------------------
