@@ -21,7 +21,6 @@ wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 git clone https://github.com/celestiaorg/networks.git
 
 --------------------------
-CELESTIA_WALLET="MY_WALLET"
 
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 
