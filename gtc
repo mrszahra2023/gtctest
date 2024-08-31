@@ -77,6 +77,7 @@ celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
 ---------------------------------------------------
 
 celestia-appd config keyring-backend test
+sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
