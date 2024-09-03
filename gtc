@@ -126,6 +126,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
 echo $CELESTIA_ADDR 
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash_prof
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 
 ------------------------------------------------
 CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a) 
