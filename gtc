@@ -64,7 +64,6 @@ s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app
 git clone https://github.com/celestiaorg/networks.git
 
 ------------------------------------------------------
-
 s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celestia-app/config/app.toml
 
 --------------------------------------------
@@ -73,7 +72,6 @@ sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/con
 
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
-
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
@@ -99,7 +97,6 @@ sudo systemctl stop celestia-appd
 --------------------------------------------------------------
 sudo systemctl enable celestia-appd
 
-cd $HOME
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
     egrep -o ">mamaki.*tar" | tr -d ">")
 wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
